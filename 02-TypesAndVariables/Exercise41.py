@@ -1,0 +1,5 @@
+number = int(input('Enter your number\n'))
+in_binary = bin(number)
+in_hexadecimal = hex(number)
+print(f'Your number in binary: {in_binary}')
+print(f'Your number in hexadecimal: {in_hexadecimal}')
