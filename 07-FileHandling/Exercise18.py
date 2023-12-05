@@ -1,0 +1,5 @@
+file = open("data.txt", "r", encoding='utf-8')
+original_content = file.read()
+new = open("copy.txt", "w")
+new.write(original_content)
+file.close()

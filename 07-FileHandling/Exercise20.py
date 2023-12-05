@@ -1,0 +1,8 @@
+meat = open("MeatAndFish.txt","r")
+grains = open("GrainsAndBread.txt","r")
+both=open("allproducts.txt", "w")
+both.write(meat.read())
+both.write(grains.read())
+meat.close()
+grains.close()
+both.close()
